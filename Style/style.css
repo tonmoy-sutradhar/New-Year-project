@@ -1,0 +1,9 @@
+/* Universal selector style */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  color: aquamarine;
+}
