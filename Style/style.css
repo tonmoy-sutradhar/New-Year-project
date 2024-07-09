@@ -50,10 +50,10 @@ body {
 /* Offer section start................... */
 .Offer-section {
   width: 802.9px;
-  height: 806px;
+  height: 715px;
   margin: 0 auto;
-  margin-top: 120px;
-  border: 2px solid red;
+  margin-top: 100px;
+  /* border: 2px solid red; */
 }
 
 .offer-text-content {
@@ -61,13 +61,13 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-bottom: 52px;
-  border: 2px solid blue;
+  margin-bottom: 40px;
+  /* border: 2px solid blue; */
 }
 .offer-text-content h1 {
   color: rgb(255, 0, 0);
   font-family: Inter;
-  font-size: 80px;
+  font-size: 70px;
   font-weight: 700;
   margin-bottom: 10px;
 }
@@ -82,4 +82,115 @@ body {
   font-family: Inter;
   font-size: 31px;
   font-weight: 700;
+}
+
+/* Welcome banner start...................... */
+.welcome-banner-container {
+  max-width: 1320px;
+  height: 600px;
+  display: flex;
+  margin: 0 auto;
+  margin-top: 100px;
+  background-image: linear-gradient(
+      45deg,
+      rgb(16, 16, 16) -0.5%,
+      rgba(16, 16, 16, 0) 100%
+    ),
+    url(../images/Vectorrr.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 5px;
+  /* border: 2px solid red; */
+}
+
+.welcome-banner-container .welcome-banner-text {
+  width: 60%;
+  height: 600px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* text-align: center; */
+  /* border: 2px solid blue; */
+}
+.welcome-banner-container .welcome-banner-text h1 {
+  font-size: 57px;
+  font-weight: 900;
+  margin-bottom: 10px;
+}
+.welcome-banner-container .welcome-banner-text p {
+  font-family: Inter;
+  font-size: 13px;
+  font-weight: 400;
+  text-align: left;
+  margin-top: 13px;
+  padding: 0px 178px;
+}
+.welcome-banner-text span {
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: bold;
+  /* margin-top: 30px; */
+  text-align: left;
+  margin: 18px 350px 5px 0px;
+  /* padding: 0 178px; */
+  /* padding: 0 0 0px; */
+  /* border: 2px solid rgb(233, 7, 7); */
+}
+
+.welcome-banner-container .welcome-banner-img {
+  width: 40%;
+  height: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* border: 2px solid greenyellow; */
+}
+
+/* Date Time section Start................... */
+.date-time-section-container {
+  width: 1320px;
+  height: 482px;
+  margin: 0 auto;
+  margin-top: 115px;
+  background-image: linear-gradient(
+    900deg,
+    rgb(181, 83, 83) -200.5%,
+    rgba(218, 71, 71, 0) 100%
+  );
+  border-radius: 8px;
+  /* border: 2px solid red; */
+}
+
+.date-time-text-content {
+  width: 650px;
+  height: 482px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 600;
+  text-align: center;
+  margin: 0 auto;
+  /* border: 2px solid blue; */
+  gap: 10px;
+}
+
+.date-time-content-clr {
+  color: rgb(255, 0, 0);
+}
+
+.date-time-text-content .date-time-btn {
+  width: 118px;
+  height: 37px;
+  font-weight: 700;
+  margin-top: 22px;
+  color: white;
+  background: rgb(255, 0, 0);
+  border-radius: 8px;
+  border-style: none;
 }
