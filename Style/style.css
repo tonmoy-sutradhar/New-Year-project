@@ -194,3 +194,71 @@ body {
   border-radius: 8px;
   border-style: none;
 }
+
+/* Coming Soon section start.............*/
+.coming-soon-container {
+  width: 1320px;
+  height: 463px;
+  display: flex;
+  margin: 0 auto;
+  margin-top: 115px;
+  border: 2px solid red;
+}
+
+.coming-soon-text-content {
+  width: 34%;
+  height: 463px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+  border: 2px solid blue;
+}
+
+.coming-soon-img {
+  width: 34%;
+  height: 463px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 15px solid red; /* Red border with 5px width */
+  border-radius: 50%; /* Makes the border round */
+}
+
+.coming-soon-year-text-content {
+  width: 34%;
+  height: 463px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid violet;
+}
+
+/* Holiday Sales Section Start............. */
+.holiday-sales-container {
+  width: 1068px;
+  height: 260px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  margin-top: 115px;
+  gap: 13px;
+  border: 2px solid red;
+}
+
+.holiday-sales-container h1 {
+  font-size: 55px;
+  font-weight: 900;
+}
+.holiday-sales-container h1 span {
+  color: rgb(255, 0, 0);
+}
+.holiday-sales-container p {
+  text-align: center;
+  font-family: Inter;
+  opacity: 0.7;
+}
